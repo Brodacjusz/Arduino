@@ -32,7 +32,7 @@ void ziel_czer()
 
 void loop() 
 {
-  if (status == true)
+  if (status == true) //zaczyna zawsze od zielonego
   {
     ziel_czer();
     delay(5000);
@@ -42,6 +42,6 @@ void loop()
   {
     czer_ziel();
     delay(5000);
-    status = true;
+    status = true; 
   }
 }
